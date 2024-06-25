@@ -25,3 +25,30 @@
   --color-secondary-50: 249, 250, 251;
   --color-secondary-0: 255, 255, 255;
 }
+
+/* TABLE */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table td,
+table th {
+  text-align: right;
+  white-space: nowrap;
+  text-align: center;
+}
+
+table th {
+  padding: 0.6rem 1rem;
+  color: rgb(var(--color-secondary-800));
+  font-size: 0.9rem;
+}
+
+table td {
+  font-size: 0.85rem;
+  padding: 1rem 1rem;
+  color: rgb(var(--color-secondary-700));
+}
